@@ -7,7 +7,7 @@ pipeline {
                 script {
                     echo "Cloning repository..."
                     // Clone the 'main' branch
-                    git branch: 'main', url: 'https://github.com/GaiMKane/testupload.git'
+                    git branch: 'master', url: 'https://github.com/GaiMKane/testupload.git'
                 }
             }
         }
